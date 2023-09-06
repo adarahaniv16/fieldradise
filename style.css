@@ -9,7 +9,7 @@
     background-image:url(images/homefix.jpeg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 nav {
     display: flex;
@@ -242,3 +242,18 @@ nav-links{
     background: #6ddceb;
     transition: 1s;
 }
+
+
+/* .footer{
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 225px;
+    position:relative;
+    text-align:center;
+    margin-bottom: 0%;
+    padding: 10px;
+    font-family: "Arial";
+} */
+
+
