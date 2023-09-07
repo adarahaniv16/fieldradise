@@ -122,7 +122,7 @@ nav-links{
 }
 
 /*------footer------*/
-.footer{
+/* .footer{
     height: 25vh;
     width: 100%;
     background-color:rgb(0, 0, 0);
@@ -148,7 +148,7 @@ nav-links{
     top: 8%;
     right: 20%;
     cursor: pointer;
-}
+} */
 /*--------booking-------*/
 .sub-header{
     height: 20vh;
