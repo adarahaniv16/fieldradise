@@ -32,31 +32,38 @@ session_start();
 <body>
 
 <!----------Sub Header----------->
-<section class="sub-header">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-     <img src="images/logo.png" style="width:130px; height:50px;">   
-     <div class="navbar ms-auto">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item ">
-                 <a class="nav-link" href="jadwal.php">JADWAL</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="lokasi.html">LOKASI</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="booking.html">BOOKING</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="promo.html">PROMO</a>
-            </li>
-        </ul>
-        </div>
-        
-    </nav>
-</section>
+<section>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"
+                        style="width:130px; height:50px;"></a>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jadwal.php">Jadwal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lokasi.html">Lokasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promo.html">Promo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
 <!----------login----------->
 <div class="btn-log" style="margin-top: 40px; margin-right: 50px; text-align:right; float:center;">
 <?php if (isset($_SESSION["email"])) : ?>
